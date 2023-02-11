@@ -86,7 +86,7 @@ void quickHull(iPair a[], int n, iPair p1, iPair p2, int side)
 	quickHull(a, n, a[ind], p1, -findSide(a[ind], p1, p2));
 	quickHull(a, n, a[ind], p2, -findSide(a[ind], p2, p1));
 }
-vector<ponto> printHull(iPair a[], int n){
+vector<ponto> theHull(iPair a[], int n){
 	
 	int min_x = 0, max_x = 0;
 	for (int i=1; i<n; i++)
@@ -120,7 +120,7 @@ int main()
 {
     int amount_of_points;
     cin >> amount_of_points;
-    vector<float>awnser;
+    vector<float>answer;
     //Make some case using the amount_of_points to store, all much points each case will have and calculate the perimeter of each polygon
     while(amount_of_points != 0){
         iPair a[2001];
@@ -130,13 +130,13 @@ int main()
             a[i] = std::make_pair(x, y);
         }
         vector<ponto> pontos;
-        pontos = printHull(a, amount_of_points);
-        awnser.push_back(result);
+        pontos = theHull(a, amount_of_points);
+        answer.push_back(result);
         result =0;
         cin>>amount_of_points;
     }
-    for(int i =0; i <awnser.size();i++){
-        printf("Tera que comprar uma fita de tamanho %.2f.\n", awnser[i]);
+    for(int i =0; i <answer.size();i++){
+        printf("Tera que comprar uma fita de tamanho %.2f.\n", answer[i]);
     }
 	return 0;
 }
