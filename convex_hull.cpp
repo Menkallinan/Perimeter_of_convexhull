@@ -3,7 +3,7 @@ The input consists of several test cases. Each test case begins with an integer 
 
 Output
 For each test case you should print: "Tera que comprar uma fita de tamanho x.", Where x is the total of tape required to cover all computers, with two decimal places.
-Input example:		 Output example: 
+Input sample:		 Output sample: 
 6			 tera que comprar uma fita de tamanho 27.78.			
 0 8                      tera que comprar uma fita de tamanho 12.00.
 1 6
