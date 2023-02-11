@@ -121,7 +121,7 @@ int main()
     int amount_of_points;
     cin >> amount_of_points;
     vector<float>answer;
-    //Make some case using the amount_of_points to store, all much points each case will have and calculate the perimeter of each polygon
+    //This loop will run according to how many points the case have, and the loop will end if the user put 0, representing no more points 
     while(amount_of_points != 0){
         iPair a[2001];
         for (int i = 0; i < amount_of_points; i++) {
