@@ -23,6 +23,7 @@ Input sample:		 Output sample:
 #include<bits/stdc++.h>
 #include <cstdlib>
 using namespace std;
+//store the perimeter of each case
 float result = 0;
 // iPair is integer pairs
 #define iPair pair<int, int>
