@@ -2,7 +2,23 @@
 The input consists of several test cases. Each test case begins with an integer N (3 ≤ N ≤ 2000) then have N rows, each containing two integers X and Y (-2000 ≤ X, Y ≤ 2000) indicating the coordinates of each supercomputer within the deposit. The input ends with N = 0 and should not be processed.
 
 Output
-For each test case you should print: "Tera que comprar uma fita de tamanho x.", Where x is the total of tape required to cover all computers, with two decimal places.*/
+For each test case you should print: "Tera que comprar uma fita de tamanho x.", Where x is the total of tape required to cover all computers, with two decimal places.
+Input example:		 Output example: 
+6			 tera que comprar uma fita de tamanho 27.78.			
+0 8                      tera que comprar uma fita de tamanho 12.00.
+1 6
+8 7
+6 6
+8 0
+3 1
+5
+1 1
+1 4
+2 3
+4 4
+4 1
+0
+ */
 #include <algorithm>
 #include<bits/stdc++.h>
 #include <cstdlib>
