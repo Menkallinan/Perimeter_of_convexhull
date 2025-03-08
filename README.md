@@ -90,10 +90,6 @@ O programa lê a entrada do terminal e imprime a saída diretamente no terminal.
 - O algoritmo **QuickHull** tem complexidade **O(n log n)** no melhor caso e **O(n²)** no pior caso, mas é eficiente para o limite de **N ≤ 2000**.
 - O programa não verifica se os pontos são colineares, mas o problema garante que **N ≥ 3** e que os pontos não são todos colineares.
 
-## Melhorias Futuras
-- **Verificação de colinearidade**: Adicionar tratamento para casos em que os pontos são colineares.
-- **Leitura de arquivo**: Permitir a leitura de casos de teste a partir de um arquivo.
-- **Interface gráfica**: Visualizar os pontos e o Convex Hull gerado.
 
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou enviar **pull requests**.
@@ -102,7 +98,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou en
 Este projeto está licenciado sob a **MIT License**.
 
 ## Referências
-- **Beecrowd** - Problema 1982
 - **Convex Hull** - [Wikipedia](https://en.wikipedia.org/wiki/Convex_hull)
-- **QuickHull Algorithm**
+
 
