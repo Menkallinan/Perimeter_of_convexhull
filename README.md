@@ -1,6 +1,6 @@
 # Problema 1982 - Fita de Segurança
 
-Este projeto resolve o problema 1982 - Fita de Segurança do Beecrowd, que consiste em calcular o comprimento mínimo de fita necessário para isolar um conjunto de supercomputadores dispostos em um depósito. A solução utiliza o algoritmo do **Convex Hull** para determinar o perímetro do menor polígono convexo que envolve todos os pontos (supercomputadores).
+Este projeto resolve o problema 1982 - Fita de Segurança do site beecrowd, que consiste em calcular o comprimento mínimo de fita necessário para isolar um conjunto de supercomputadores dispostos em um depósito. A solução utiliza o algoritmo do **Convex Hull** para determinar o perímetro do menor polígono convexo que envolve todos os pontos (supercomputadores).
 
 ## Descrição do Problema
 ### Contexto
